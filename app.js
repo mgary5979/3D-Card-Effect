@@ -18,9 +18,7 @@ container.addEventListener("mousemove", (e) => {
 container.addEventListener("mouseenter", (e) => {
 
   card.style.transition = 'all 0.2s ease-out';
-  settimeOut(() => {
-    card.style.transition = "none";
-  }, 3000);
+  
   //Popout
   title.style.transform = "translateZ(150px)";
   shox.style.transform = "translateZ(200px) rotateZ(-45deg)";
